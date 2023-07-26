@@ -78,7 +78,8 @@ String html(String background) {
         _setPanner();
 
         oscillator = audioCtx.createOscillator();
-        oscillator.type = 'square';
+        oscillator.type = 'sinusoidal';
+        // oscillator.type = 'square';
         oscillator.frequency.value = freq;
         oscillator.start();
 
