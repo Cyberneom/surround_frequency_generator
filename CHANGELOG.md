@@ -1,3 +1,10 @@
+## [1.0.0] - Oct 10, 2021
+
+* Forking repository from surround_sound package.
+* Updating flutter packages.
+* Changing default waveform from SQUARE to SINUSOIDAL.
+* Implementing functionality for iOS.
+
 ## [0.3.2] - Oct 10, 2021
 
 * Update flutter packages

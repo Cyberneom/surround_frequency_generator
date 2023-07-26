@@ -1,4 +1,4 @@
-# surround_sound
+# surround_frequency_generator
 
 A package to create surround sound effects
 

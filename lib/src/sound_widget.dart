@@ -2,17 +2,18 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:surround_sound/src/sound_controller.dart';
-import 'package:surround_sound/src/web_html.dart';
+import 'package:surround_frequency_generator/src/sound_controller.dart';
+import 'package:surround_frequency_generator/src/web_html.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart';
 import 'package:webview_flutter_platform_interface/webview_flutter_platform_interface.dart';
 
 class SoundWidget extends StatefulWidget {
+
   final SoundController soundController;
   final Color backgroundColor;
-  WebViewController? webViewAndroidController;
-  PlatformWebViewController? webViewIosController;
+  final WebViewController? webViewAndroidController;
+  final PlatformWebViewController? webViewIosController;
 
   SoundWidget({
     Key? key,

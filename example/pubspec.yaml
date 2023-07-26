@@ -1,7 +1,6 @@
 name: example
-description: An example of surround sound package
+description: An example of surround frequency generator package
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
 version: 1.0.0+1
 
 environment:
@@ -11,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  surround_sound:
+  surround_frequency_generator:
     path: ../
 
 dev_dependencies:

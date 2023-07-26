@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:surround_sound/surround_sound.dart';
+import 'package:surround_frequency_generator/surround_frequency_generator.dart';
 
 void main() => runApp(MyApp());
 

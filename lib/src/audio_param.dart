@@ -1,5 +1,4 @@
 import 'package:flutter/widgets.dart';
-import 'package:surround_sound/src/sound_controller.dart';
 
 /// {@template audio_param}
 /// Data model that can be used to transfer data between the app UI

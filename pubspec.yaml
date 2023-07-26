@@ -1,4 +1,4 @@
-name: surround_sound
+name: surround_frequency_generator
 description: A package to create surround sound effects with a frequency generator using Web Audio API
 version: 1.0.0
 repository: https://github.com/Cyberneom/surround_frequency_generator
@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
   webview_flutter: ^4.2.2
   webview_flutter_wkwebview: ^3.7.1
+  webview_flutter_platform_interface: ^2.4.0
 
 dev_dependencies:
   flutter_test:
